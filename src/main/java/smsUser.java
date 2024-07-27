@@ -4,7 +4,7 @@ public class smsUser {
 	 protected String password;
 	 protected String email;
 	 protected String department;
-	 
+	 //name
 	 
 	 
 	public smsUser(String name, String password, String email, String department) {
