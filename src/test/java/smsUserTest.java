@@ -62,9 +62,6 @@ class smsUserTest {
         assertEquals("HR", user.getDepartment());
     }
 
-    @Test
-    void testSetDepartment() {
-        user.setDepartment("HR");
-        assertEquals("HR", user.getDepartment());
+    
     }
-}
+
