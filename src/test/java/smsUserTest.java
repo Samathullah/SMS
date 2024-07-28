@@ -4,7 +4,7 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-class smsUserTest {
+class SmsUserTest {
 
     private smsUser user;
 
@@ -26,11 +26,11 @@ class smsUserTest {
         assertEquals("sama", user.getName());
     }
 
-    //@Test
-    //void testSetName() {
-        //user.setName("sama");
-        //assertEquals("sama", user.getName());
-    //}
+    @Test
+    void testSetName() {
+        user.setName("sama");
+        assertEquals("sama", user.getName());
+    }
 
     @Test
     void testGetPassword() {
@@ -38,11 +38,11 @@ class smsUserTest {
         assertEquals("password", user.getPassword());
     }
 
-    //@Test
-    //void testSetPassword() {
-       // user.setPassword("password");
-        //assertEquals("password", user.getPassword());
-    //}
+    @Test
+    void testSetPassword() {
+        user.setPassword("password");
+        assertEquals("password", user.getPassword());
+    }
 
     @Test
     void testGetEmail() {
@@ -50,11 +50,11 @@ class smsUserTest {
         assertEquals("dvops@email.com", user.getEmail());
     }
 
-    //@Test
-   // void testSetEmail() {
-     //  user.setEmail("dvops@email.com");
-       // assertEquals("dvops@email.com", user.getEmail());
-    //}
+    @Test
+    void testSetEmail() {
+        user.setEmail("dvops@email.com");
+        assertEquals("dvops@email.com", user.getEmail());
+    }
 
     @Test
     void testGetDepartment() {
@@ -62,6 +62,9 @@ class smsUserTest {
         assertEquals("HR", user.getDepartment());
     }
 
-    
+    @Test
+    void testSetDepartment() {
+        user.setDepartment("HR");
+        assertEquals("HR", user.getDepartment());
     }
-
+}
