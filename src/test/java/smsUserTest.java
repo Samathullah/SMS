@@ -11,7 +11,7 @@ class smsUserTest {
     @BeforeEach
     void setUp() throws Exception {
         // Initialize a new smsUser instance before each test
-        user = new smsUser("Initial Name", "InitialPassword", "initial@example.com", "InitialDept");
+        user = new smsUser("Name", "Password", "dvops@email.com", "Department");
     }
 
     @AfterEach
