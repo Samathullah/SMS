@@ -27,8 +27,9 @@ pipeline{
 			steps{
 		echo "Sonar"
 		bat "mvn sonar:sonar"
+		echo "mvn sonar complete"
 	}	
 }	
-			}
-	}
+			
+}
 }
