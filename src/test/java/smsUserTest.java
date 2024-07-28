@@ -22,38 +22,38 @@ class smsUserTest {
 
     @Test
     void testGetName() {
-        user.setName("John Doe");
-        assertEquals("John Doe", user.getName());
+        user.setName("sama");
+        assertEquals("sama", user.getName());
     }
 
     @Test
     void testSetName() {
-        user.setName("Jane Doe");
-        assertEquals("Jane Doe", user.getName());
+        user.setName("sama");
+        assertEquals("sama", user.getName());
     }
 
     @Test
     void testGetPassword() {
-        user.setPassword("password123");
-        assertEquals("password123", user.getPassword());
+        user.setPassword("password");
+        assertEquals("password", user.getPassword());
     }
 
     @Test
     void testSetPassword() {
-        user.setPassword("password456");
-        assertEquals("password456", user.getPassword());
+        user.setPassword("password");
+        assertEquals("password", user.getPassword());
     }
 
     @Test
     void testGetEmail() {
-        user.setEmail("johndoe@example.com");
-        assertEquals("johndoe@example.com", user.getEmail());
+        user.setEmail("dvops@email.com");
+        assertEquals("dvops@email.com", user.getEmail());
     }
 
     @Test
     void testSetEmail() {
-        user.setEmail("janedoe@example.com");
-        assertEquals("janedoe@example.com", user.getEmail());
+        user.setEmail("dvops@email.com");
+        assertEquals("dvops@email.com", user.getEmail());
     }
 
     @Test
@@ -64,7 +64,7 @@ class smsUserTest {
 
     @Test
     void testSetDepartment() {
-        user.setDepartment("IT");
-        assertEquals("IT", user.getDepartment());
+        user.setDepartment("HR");
+        assertEquals("HR", user.getDepartment());
     }
 }
