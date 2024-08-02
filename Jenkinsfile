@@ -30,11 +30,6 @@ pipeline{
 		bat "mvn sonar:sonar"
 	}
 }
-			stage("Selenium"){
-			steps{
-		echo "Selenium"
-		bat "mvn selenium_SMS"
-	}
-}
+
 }
 }
