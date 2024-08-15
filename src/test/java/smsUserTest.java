@@ -67,6 +67,6 @@ class SmsUserTest {
         user.setDepartment("HR");
         assertEquals("HR", user.getDepartment());
         
-        //test
+       //test
     }
 }
