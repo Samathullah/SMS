@@ -66,5 +66,7 @@ class SmsUserTest {
     void testSetDepartment() {
         user.setDepartment("HR");
         assertEquals("HR", user.getDepartment());
+        
+        //test
     }
 }
